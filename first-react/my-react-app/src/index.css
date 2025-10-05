@@ -73,3 +73,49 @@ footer p {
   white-space: pre-wrap;
   word-wrap: break-word;
 } */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  padding: 0 16px;
+}
+
+.headerStyle {
+    background: #f5ba13;
+    color: white;
+    font-family: "McLaren";
+    font-weight: 400;
+    padding: 16px 28px;
+    margin: auto -16px;
+}
+
+.footerStyle {
+    position: absolute;
+    text-align: center;
+    color: lightgrey;
+    font-family: "Montserrat";
+    margin-bottom: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.contentStyle {
+    margin: 14px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 10px 20px;
+    font-family:"Montserrat";
+    width: fit-content;
+    padding-right: 40px;
+    border-radius: 10px
+}
+
+.contentStyle h5 , .contentStyle p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
