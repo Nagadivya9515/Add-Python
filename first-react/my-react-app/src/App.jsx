@@ -12,8 +12,7 @@ let customStyle = {
 function App() {
   
   if(time === "Morning") {
-    message = "Good Morning";
-    
+    message = "Good Morning";   
   }
   else if(time === "Noon") {
     message = "Good Afternoon";
@@ -46,6 +45,7 @@ function multiply(a,b) {
 function division(a,b) {
     return a/b;
 }
+
 
 export {add, subtract, multiply, division};
   
